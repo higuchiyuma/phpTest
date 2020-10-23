@@ -2,13 +2,17 @@
 
 $name = "yuma";
 
-if ($name = "yuma") {
+if ($name == "yuma") {
 
     echo "私はあなたの名前です";
 
-}else {"あなたの名前ではありません";
+}else {
+    
+    echo "あなたの名前ではありません";
 
 }
+
+$total = 0;
 
 for($i = 0; $i <= 10000; $i++) {
 
@@ -20,9 +24,9 @@ echo $total;
 
 $fruits = array("banana", "grape", "melon", "lemon", "mango");
 
-foreach($fruits as $fruits){
+foreach($fruits as $fruit){
 
-    echo "好きなのは" . $fruits;
+    echo "好きなのは" . $fruit;
 
     echo "\n";
 
