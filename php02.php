@@ -1,6 +1,6 @@
 <?php
 
-$name = "yuma";
+$name = "uhu";
 
 if ($name == "yuma") {
 
